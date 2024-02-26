@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Pagination
+description: This is a Pagination Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+
+<!-- Basic -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul class="pagination" data-pagination="currentPage:1">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li data-page="1" class="pagination-item">1</li>
+            <li data-page="2" class="pagination-item">2</li>
+            <li data-page="3" class="pagination-item">3</li>
+            <li data-page="4" class="pagination-item">4</li>
+            <li data-page="5" class="pagination-item">5</li>
+            <li data-page="6" class="pagination-item">6</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Basic</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Compact -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul class="pagination compact" data-pagination="currentPage:1">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li data-page="1" class="pagination-item">1</li>
+            <li data-page="2" class="pagination-item">2</li>
+            <li data-page="3" class="pagination-item">3</li>
+            <li data-page="4" class="pagination-item">4</li>
+            <li data-page="5" class="pagination-item">5</li>
+            <li data-page="6" class="pagination-item">6</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Compact</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Bordered -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul class="pagination bordered" data-pagination="currentPage:1">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li data-page="1" class="pagination-item">1</li>
+            <li data-page="2" class="pagination-item">2</li>
+            <li data-page="3" class="pagination-item">3</li>
+            <li data-page="4" class="pagination-item">4</li>
+            <li data-page="5" class="pagination-item">5</li>
+            <li data-page="6" class="pagination-item">6</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Bordered</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Pagination with overflow menu -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul class="pagination compact" data-pagination="currentPage:1 maxItem:6">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li class="pagination-item" data-page="1">1</li>
+            <li class="pagination-item" data-page="2">2</li>
+            <li class="pagination-item" data-page="3">3</li>
+            <li class="pagination-item" data-page="4">4</li>
+            <li class="pagination-item" data-page="5">5</li>
+            <li class="pagination-item" data-page="6">6</li>
+            <li class="pagination-item" data-page="7">7</li>
+            <li class="pagination-item" data-page="8">8</li>
+            <li class="pagination-item" data-page="9">9</li>
+            <li class="pagination-item" data-page="10">10</li>
+            <li class="pagination-item" data-page="11">11</li>
+            <li class="pagination-item" data-page="12">12</li>
+            <li class="pagination-item" data-page="13">13</li>
+            <li class="pagination-item" data-page="14">14</li>
+            <li class="pagination-item" data-page="15">15</li>
+            <li class="pagination-item" data-page="16">16</li>
+            <li class="pagination-item" data-page="17">17</li>
+            <li class="pagination-item" data-page="18">18</li>
+            <li class="pagination-item" data-page="19">19</li>
+            <li class="pagination-item" data-page="20">20</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Pagination with overflow menu</h2>
+    </div>
+    </div>
+</div>
+<!-- Scrollable -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul class="pagination scrollable bordered w-64" data-pagination="currentPage:1">
+            <li class="pagination-item" data-page="1">1</li>
+            <li class="pagination-item" data-page="2">2</li>
+            <li class="pagination-item" data-page="3">3</li>
+            <li class="pagination-item" data-page="4">4</li>
+            <li class="pagination-item" data-page="5">5</li>
+            <li class="pagination-item" data-page="6">6</li>
+            <li class="pagination-item" data-page="7">7</li>
+            <li class="pagination-item" data-page="8">8</li>
+            <li class="pagination-item" data-page="9">9</li>
+            <li class="pagination-item" data-page="10">10</li>
+            <li class="pagination-item" data-page="11">11</li>
+            <li class="pagination-item" data-page="12">12</li>
+            <li class="pagination-item" data-page="13">13</li>
+            <li class="pagination-item" data-page="14">14</li>
+            <li class="pagination-item" data-page="15">15</li>
+            <li class="pagination-item" data-page="16">16</li>
+            <li class="pagination-item" data-page="17">17</li>
+            <li class="pagination-item" data-page="18">18</li>
+            <li class="pagination-item" data-page="19">19</li>
+            <li class="pagination-item" data-page="20">20</li>
+        </ul>
+        </nav>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Scrollable</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Use cases -->
+<div data-heading="Other use cases">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Other use cases</h2>
+</div>
+
+<!-- Get current page -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul id="pagination-demo" class="pagination compact" data-pagination="currentPage:5 maxItem:6">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li class="pagination-item" data-page="1">1</li>
+            <li class="pagination-item" data-page="2">2</li>
+            <li class="pagination-item" data-page="3">3</li>
+            <li class="pagination-item" data-page="4">4</li>
+            <li class="pagination-item" data-page="5">5</li>
+            <li class="pagination-item" data-page="6">6</li>
+            <li class="pagination-item" data-page="7">7</li>
+            <li class="pagination-item" data-page="8">8</li>
+            <li class="pagination-item" data-page="9">9</li>
+            <li class="pagination-item" data-page="10">10</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+        <div class="text-body-01 mt-1">Current page: <span id="current-page">5</span></div>
+
+        <script>
+        const pagination = document.querySelector('#pagination-demo');
+        pagination.onchange = (event) => {
+            const currentPage = pagination._instance.getCurrentPage() || event.detail.currentPage;
+            document.querySelector('#current-page').textContent = currentPage;
+        };
+        </script>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Get current page</h2>
+        <p class="text-body-01 text-gray-500">
+        Get the current page with getCurrentPage method or the returned value in change event
+        </p>
+    </div>
+    </div>
+</div>
+
+<!-- Set current page -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul
+            id="pagination-demo-setpage"
+            class="pagination compact"
+            data-pagination="currentPage:1 maxItem:6"
+        >
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li class="pagination-item" data-page="1">1</li>
+            <li class="pagination-item" data-page="2">2</li>
+            <li class="pagination-item" data-page="3">3</li>
+            <li class="pagination-item" data-page="4">4</li>
+            <li class="pagination-item" data-page="5">5</li>
+            <li class="pagination-item" data-page="6">6</li>
+            <li class="pagination-item" data-page="7">7</li>
+            <li class="pagination-item" data-page="8">8</li>
+            <li class="pagination-item" data-page="9">9</li>
+            <li class="pagination-item" data-page="10">10</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+        <div class="flex h-8 w-48 items-center justify-center">
+        <input id="input-setpage" class="number-input h-8" type="number" placeholder="Enter page..." />
+        <button id="btn-setpage" class="btn small system ml-2">Go</button>
+        </div>
+
+        <script>
+        const paginationSetpage = document.querySelector('#pagination-demo-setpage');
+        const inputSetpage = document.querySelector('#input-setpage');
+        const btnSetpage = document.querySelector('#btn-setpage');
+        btnSetpage.addEventListener('click', () => {
+            paginationSetpage._instance.setCurrentPage(inputSetpage.value);
+            inputSetpage.value = '';
+        });
+        </script>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Set current page</h2>
+        <p class="text-body-01 text-gray-500">setCurrentPage method with page number</p>
+    </div>
+    </div>
+</div>
+
+<!-- append new page -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul id="test-append-page" class="pagination" data-pagination="currentPage:1 maxItem:6">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li class="pagination-item" data-page="1">1</li>
+            <li class="pagination-item" data-page="2">2</li>
+            <li class="pagination-item" data-page="3">3</li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+        <button id="add" class="btn small system">Add</button>
+
+        <script>
+        const ul = document.querySelector('#test-append-page');
+        const addBtn = document.querySelector('#add');
+        addBtn.addEventListener('click', () => {
+            const li = document.createElement('li');
+            const newPage = ul._instance.endPage + 1;
+            li.classList.add('pagination-item');
+            li.setAttribute('data-page', newPage);
+            li.innerHTML = newPage;
+            ul._instance.appendPage(li);
+        });
+
+        ul.onchange = (e) => console.log(e.detail.currentPage);
+        </script>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Append new page</h2>
+        <p class="text-body-01 text-gray-500">appendPage method suitable for dynamic pagination</p>
+    </div>
+    </div>
+</div>
+
+<!-- Link to other page -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-col flex-wrap items-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav>
+        <ul id="test" class="pagination" data-pagination="currentPage:1">
+            <li class="pagination-item">
+            <button class="btn-start"><i class="far fa-chevron-left-double"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-pre"><i class="far fa-chevron-left"></i></button>
+            </li>
+            <li data-page="1" class="pagination-item"><a href="#1">1</a></li>
+            <li data-page="2" class="pagination-item"><a href="#2">2</a></li>
+            <li data-page="3" class="pagination-item"><a href="#3">3</a></li>
+            <li data-page="4" class="pagination-item"><a href="#4">4</a></li>
+            <li data-page="5" class="pagination-item"><a href="#5">5</a></li>
+            <li data-page="6" class="pagination-item"><a href="#6">6</a></li>
+            <li class="pagination-item">
+            <button class="btn-next"><i class="far fa-chevron-right"></i></button>
+            </li>
+            <li class="pagination-item">
+            <button class="btn-end"><i class="far fa-chevron-right-double"></i></button>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Link to other page</h2>
+        <p class="text-body-01 text-gray-500">Link to another page with &lt;a&gt; tag.</p>
+    </div>
+    </div>
+</div>
+</div>

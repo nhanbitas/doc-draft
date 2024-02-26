@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Search input
+description: This is a Search input Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div class="flex h-max w-full items-center">
+        <div class="relative w-full">
+            <div class="btn icon-only absolute left-0 top-0 text-gray-500">
+            <i class="far fa-search-md"></i>
+            </div>
+            <input
+            type="search"
+            class="text-body-compact-02 h-10 w-full text-ellipsis rounded-md border border-gray-200 bg-white pl-10 pr-10"
+            placeholder="Search"
+            />
+            <button type="button" class="btn icon-only ghost absolute right-0 top-0 hidden">
+            <i class="far fa-x h-4 w-4"></i>
+            </button>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Search input field</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div class="flex h-max w-full items-center">
+        <div class="relative w-full">
+            <input
+            type="search"
+            class="text-body-compact-02 h-10 w-full text-ellipsis rounded-md border border-gray-200 bg-white pl-4 pr-20"
+            placeholder="Search"
+            />
+            <div class="absolute right-0 top-0 flex items-center">
+            <button type="button" class="btn icon-only ghost hidden focus:z-10">
+                <i class="far fa-x"></i>
+            </button>
+            <span class="h-5 w-px bg-gray-200"></span>
+            <button type="button" class="btn icon-only ghost focus:z-10">
+                <i class="far fa-search-md h-4 w-4"></i>
+            </button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Combo search input field</h2>
+    </div>
+    </div>
+</div>
+</div>

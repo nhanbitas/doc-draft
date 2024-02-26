@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Radio
+description: This is a Radio Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div class="flex w-full flex-col gap-2">
+        <legend class="text-label-02 text-gray-700">Choose an operating system</legend>
+
+        <label class="input-wrapper">
+            <input type="radio" name="operating-system" />
+            <span class="input-label">Windows</span>
+            <span class="input-sublabel">Windows 10 or above</span>
+        </label>
+
+        <label class="input-wrapper">
+            <input type="radio" name="operating-system" />
+            <span class="input-label">macOS</span>
+            <span class="input-sublabel">macOS 11 or above</span>
+        </label>
+
+        <label class="input-wrapper">
+            <input type="radio" name="operating-system" />
+            <span class="input-label">Linux</span>
+            <span class="input-sublabel">Ubuntu 18.04 or Debian 11 or above</span>
+        </label>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Radio</h2>
+    </div>
+    </div>
+</div>
+</div>

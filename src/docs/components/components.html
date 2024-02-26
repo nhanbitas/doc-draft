@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opera Design System</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../../lib/favicon.ico" />
+  <link rel="stylesheet" href="../../styles/output.css" />
+  <link rel="stylesheet"  href="../../styles/index.css">
+
+  <script defer src="../../scripts/demo/sidebar.js" type="module"></script>
+  <script src="../../lib/font-awesome/fontawesome.min.js"></script>
+  <script src="../../lib/font-awesome/regular.js"></script>
+</head>
+<body class="flex flex-col">
+  <nav class="z-20 flex h-12 w-screen bg-white shadow">
+    <button
+      type="button"
+      id="sidebar-toggle-default"
+      class="flex items-center bg-white p-4 text-gray-500 hover:text-gray-900"
+    >
+      <i class="far fa-menu-01 h-4 w-4"></i>
+    </button>
+    <div class="flex w-full flex-row items-center justify-between gap-2 truncate px-4">
+      <a href="#" class="text-heading-02 w-fit truncate text-gray-900">Opera Design System</a>
+      <div class="badge orange">v0.5.231106a</div>
+    </div>
+  </nav>
+
+  <div id="wrapper" class="flex h-full flex-row">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper" class="z-10 w-56 shrink-0 bg-white shadow-lg">
+      <div id="sidebar-content" class="scrollbar-none flex h-full flex-col overflow-y-scroll bg-white">
+        <div class="sticky left-0 top-0 z-10 bg-white p-4 shadow">
+          <i class="far fa-book-open-01 h-6 w-6 rounded-md border-orange-500 text-orange-500"></i>
+          <h3 class="text-heading-03 text-gray-900">Documentation</h3>
+          <p class="text-body-01 text-gray-500">UI Library v0.5</p>
+        </div>
+        <!-- render sidebar items by scripts here -->
+      </div>
+    </div>
+    <!-- Sidebar -->
+
+    <!-- Main content -->
+    <div id="page-content-wrapper" class="grow">
+      <iframe class="h-full w-full" src="../introduction/overview.html" name="mainIframe"></iframe>
+    </div>
+    <!-- Main content -->
+  </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Content navigation
+description: This is a Content navigation Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-row gap-x-4 overflow-x-auto rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <nav data-content-navigation class="content-navigation"></nav>
+
+        <!-- Example Content -->
+
+        <main
+        class="flex h-[25rem] w-full min-w-[10rem] flex-col gap-5 overflow-y-scroll rounded-md bg-gray-950 p-3"
+        >
+        <h2 class="anchor heading text-heading-03 text-orange">Getting Started</h2>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Installation</h3>
+            <p class="text-body-02 text-white">
+            The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the
+            Tailwind CLI tool. The CLI is also available as a standalone executable if you want to use it
+            without installing Node.js.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Editor Setup</h3>
+            <p class="text-body-02 text-white">
+            Plugins and configuration settings that can improve the developer experience when working with
+            Tailwind CSS. We maintain an official Prettier plugin for Tailwind CSS that automatically sorts
+            your classes following our recommended class order. It works seamlessly with custom Tailwind
+            configurations, and because it's just a Prettier plugin, it works anywhere Prettier works —
+            including every popular editor and IDE, and of course on the command line.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Using with Preprocessors</h3>
+            <p class="text-body-02 text-white">
+            Since Tailwind is a PostCSS plugin, there's nothing stopping you from using it with Sass, Less,
+            Stylus, or other preprocessors, just like you can with other PostCSS plugins like Autoprefixer.
+            It's important to note that you don't need to use a preprocessor with Tailwind — you typically
+            write very little CSS on a Tailwind project anyways so using a preprocessor just isn't as
+            beneficial as it would be in a project where you write a lot of custom CSS.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Optimizing for Production</h3>
+            <p class="text-body-02 text-white">
+            Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file
+            possible by only generating the CSS you are actually using in your project. For the smallest
+            possible production build, we recommend minifying your CSS with a tool like cssnano, and
+            compressing your CSS with Brotli.
+            </p>
+        </div>
+
+        <hr class="my-2" />
+
+        <h2 class="anchor heading text-heading-03 text-orange">Core Concepts</h2>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Responsive Design</h3>
+            <p class="text-body-02 text-white">
+            Every utility class in Tailwind can be applied conditionally at different breakpoints, which
+            makes it a piece of cake to build complex responsive interfaces without ever leaving your HTML.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Dark Mode</h3>
+            <p class="text-body-02 text-white">
+            Now that dark mode is a first-class feature of many operating systems, it's becoming more and
+            more common to design a dark version of your website to go along with the default design. To
+            make this as easy as possible, Tailwind includes a dark variant that lets you style your site
+            differently when dark mode is enabled.
+            </p>
+        </div>
+
+        <div>
+            <h3 class="anchor text-heading-03 mb-2 text-gray-400">Reusing Styles</h3>
+            <p class="text-body-02 text-white">
+            Tailwind encourages a utility-first workflow, where designs are implemented using only low-level
+            utility classes. This is a powerful way to avoid premature abstraction and the pain points that
+            come with it. But of course as a project grows, you'll inevitably find yourself repeating common
+            utility combinations to recreate the same design in many different places.
+            </p>
+        </div>
+        </main>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Content navigation</h2>
+    </div>
+    </div>
+</div>
+</div>

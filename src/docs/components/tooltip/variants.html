@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Tooltip
+description: This is a Tooltip Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <!-- Hover tooltip -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Hover tooltip (default)</h2>
+    </div>
+    </div>
+
+    <!-- Toggle tooltip -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip" data-tooltip="type:toggle" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Toggle tooltip</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Themes -->
+<div data-heading="Themes">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Themes</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <!-- Dark tooltip -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip" data-tooltip="type:toggle" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Dark (default)</h2>
+    </div>
+    </div>
+
+    <!-- Light tooltip -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip light" data-tooltip="type:toggle" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Light</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Positions -->
+<div data-heading="Positions">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Positions</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <!-- Auto -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-between gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip" data-tooltip="type:toggle" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+        <span class="tooltip" data-tooltip="type:toggle" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Auto (default)</h2>
+    </div>
+    </div>
+
+    <!-- Top -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip top" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Top</h2>
+    </div>
+    </div>
+
+    <!-- Top-right -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip top-right" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Top-right</h2>
+    </div>
+    </div>
+
+    <!-- Top-left -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip top-left" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Top-left</h2>
+    </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip bottom" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Bottom</h2>
+    </div>
+    </div>
+
+    <!-- Bottom-right -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip bottom-right" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Bottom-right</h2>
+    </div>
+    </div>
+
+    <!-- Bottom-left -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip bottom-left" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Bottom-left</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Delay Tooltips -->
+<div data-heading="Delay Tooltips">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Delay</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <!-- Delay tooltip -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <span class="tooltip" data-tooltip="delay:1000" data-tooltip-content="Your tooltip message!">
+        <i class="far fa-info-circle text-gray-500"></i>
+        </span>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Basic usage</h2>
+        <p class="text-body-01 text-gray-700">Delay: 1000ms</p>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Creating tooltips with method -->
+<div data-heading="Creating tooltips with method">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Creating tooltips with method</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <!-- Default config -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <script>
+        const element = document.querySelector('#your-element'); // The element that you want to create tooltip on
+        const config = {
+            type: 'hover', // hover | toggle
+            theme: 'dark', // dark | light
+            position: 'auto', //auto | top | top-right | top-left | bottom | bottom-right | bottom-left | left | right
+            delay: 0, // The delay in milliseconds before showing the tooltip
+            content: '', // The text content of the tooltip
+            btnLeft: {
+            content: '', // The text content of the left button
+            action: '', // dismiss | scrollTo | openNewTab
+            scrollTarget: '', // The scroll target (id of the element) of the left button if action is 'scrollTo'
+            href: '', // The href target of the left button if action is 'openNewTab'
+            },
+            btnRight: {
+            content: '', // The text content of the right button
+            action: '', // dismiss | scrollTo | openNewTab
+            scrollTarget: '', // The scroll target (id of the element) of the right button if action is 'scrollTo'
+            href: '', // The href target of the right button if action is 'openNewTab'
+            },
+        };
+
+        Opera.createTooltip(element, config); // Create tooltip
+        </script>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Default config</h2>
+    </div>
+    </div>
+
+    <!-- createTooltip method -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button id="download" class="btn secondary"><i class="far fa-download-01"></i></button>
+        <script>
+        const downloadElement = document.querySelector('#download');
+        Opera.createTooltip(downloadElement, {
+            content: 'Download document',
+            position: 'right',
+            delay: 1000,
+        });
+        </script>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">Basic usage</h2>
+    </div>
+    </div>
+
+    <!-- Button actions example -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <p class="text-body-02 text-gray-900">
+        The <span id="definition" class="underline">definition</span> provides inline additional help or
+        defines a term. It may be used on the label of a UI element, on a word embedded in a paragraph, or
+        in compact spaces such as data tables where icons clutter the UI. You can use definition tooltips on
+        headers, body copy, or labels.
+        </p>
+
+        <script>
+        const definitionTooltip = document.querySelector('#definition');
+        const definitionTooltipConfig = {
+            type: 'toggle',
+            position: 'top-right',
+            content:
+            'Definition tooltips allow for a brief definition of a term or a term that is not in the main body of the text.',
+            btnLeft: {
+            content: 'Dismiss',
+            action: 'dismiss',
+            },
+            btnRight: {
+            content: 'View',
+            action: 'scrollTo',
+            scrollTarget: 'page-title',
+            },
+        };
+
+        Opera.createTooltip(definitionTooltip, definitionTooltipConfig);
+        </script>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">With scrollTo action</h2>
+    </div>
+    </div>
+
+    <!-- Button actions example -->
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <p class="text-body-02 text-gray-900">
+        The <span id="home-link" class="font-semibold">Opera Design System</span> is powerful, extensible,
+        and feature-packed frontend toolkit. Build and customize with tailwindcss, utilize prebuilt UI
+        system and components, and bring projects to life with powerful JavaScript plugins.
+        </p>
+
+        <script>
+        const linkTooltip = document.querySelector('#home-link');
+        const linkTooltipConfig = {
+            type: 'toggle',
+            position: 'top-right',
+            content:
+            'Jump right into building with Opera—use the CDN, install it via the package manager, or download the source code',
+            btnRight: {
+            content: 'Learn more',
+            action: 'openNewTab',
+            href: 'https://demo.bitas.net/ui/docs/',
+            },
+        };
+
+        Opera.createTooltip(linkTooltip, linkTooltipConfig);
+        </script>
+    </div>
+
+    <div data-info-pane>
+        <h2 class="text-heading-01">With openNewTab action</h2>
+    </div>
+    </div>
+</div>
+</div>

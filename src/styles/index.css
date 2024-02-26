@@ -1,0 +1,53 @@
+@import url(../lib/highlight.js/theme.css);
+
+html,
+body {
+  height: 100%;
+}
+
+#wrapper {
+  overflow-x: hidden;
+  height: 100%;
+  height: -webkit-fill-available;
+}
+
+#sidebar-wrapper {
+  margin-left: -14rem;
+  transition: margin 0.3s ease-in-out;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 896px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -14rem;
+  }
+}
+
+  body.markdown-body {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+  
+ .shared-layout {
+  position: sticky;
+  top: -95px;
+  background-color: white;
+  z-index: 10;
+ }

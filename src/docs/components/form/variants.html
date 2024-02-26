@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Form
+description: This is a Form Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+<!-- Layout -->
+<div data-heading="Layout">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Layout</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control">
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">One-column</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control">
+                <select>
+                <option value="">Please choose an option</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control">
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Two-column</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control double">
+                <select>
+                <option value="">Please choose an option</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                </select>
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Double control (default)</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control double ratio-2:1">
+                <select>
+                <option value="">Please choose an option</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                </select>
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Double control (ratio 2:1)</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control double ratio-1:2">
+                <select>
+                <option value="">Please choose an option</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                </select>
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Double control (ratio 1:2)</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <form class="form w-full">
+        <div class="form-block">
+            <div class="form-col">
+            <label class="form-control-label required"> Label </label>
+            <div class="form-control triple">
+                <select>
+                <option value="">Please choose an option</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                </select>
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+                <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+            </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Triple control (default)</h2>
+    </div>
+    </div>
+</div>
+</div>

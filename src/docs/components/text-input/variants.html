@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Text input
+description: This is a Text input Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <input data-text-field class="text-field" type="text" placeholder="Placeholder" />
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text input field</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <input data-text-field="clearable" class="text-field" type="text" placeholder="Placeholder" />
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text input field with clear button</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <input
+        data-text-field="clearable"
+        data-label="Label"
+        class="text-field"
+        type="text"
+        placeholder="Placeholder"
+        />
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text input field with contained label</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <textarea class="text-area" rows="4" placeholder="Enter your message" spellcheck="false"></textarea>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text input area</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <textarea
+        maxlength="500"
+        class="text-area"
+        rows="4"
+        placeholder="Enter your message"
+        spellcheck="false"
+        ></textarea>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text input area (with max length)</h2>
+    </div>
+    </div>
+</div>
+</div>

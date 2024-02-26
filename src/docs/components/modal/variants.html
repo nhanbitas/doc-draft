@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Modal
+description: This is a Modal Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:basic-modal-id">Open Modal</button>
+
+        <div id="basic-modal-id" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Basic Modal</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:static-modal-id">Open Modal</button>
+
+        <div id="static-modal-id" class="modal modal-static">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Static Modal</h2>
+        <p class="text-helper-02 text-gray-500">Modal will not be dismissed when clicking on overlay</p>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Sizes -->
+<div data-heading="sizes">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Sizes</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:small-modal-id">Open Modal</button>
+
+        <div id="small-modal-id" class="modal small">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum volup ratione dicta.
+            Maxime cupiditate
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Small</h2>
+        <p class="text-helper-02 text-gray-500">Max-width: 300px</p>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:default-modal-id">Open Modal</button>
+
+        <div id="default-modal-id" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Default</h2>
+        <p class="text-helper-02 text-gray-500">Max-width: 500px</p>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:large-modal-id">Open Modal</button>
+
+        <div id="large-modal-id" class="modal large">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            <div class="h-96"></div>
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Large</h2>
+        <p class="text-helper-02 text-gray-500">Max-width: 800px</p>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:xlarge-modal-id">Open Modal</button>
+
+        <div id="xlarge-modal-id" class="modal extra-large">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">Modal Title</h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            <div class="h-96"></div>
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Extra Large</h2>
+        <p class="text-helper-02 text-gray-500">Max-width: 1140px</p>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Other use cases -->
+<div data-heading="Other use cases">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Other use cases</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:danger-modal-id">Open Modal</button>
+
+        <div id="danger-modal-id" class="modal modal-static">
+        <div class="modal-dialog">
+            <div class="modal-header">
+            <h3 class="text-heading-02">
+                <i class="far fa-alert-circle mr-1 text-yellow-500"></i>
+                Do you want to delete this item?
+            </h3>
+            <button class="hide-modal-btn btn icon-only ghost">
+                <i class="far fa-x-close"></i>
+            </button>
+            </div>
+
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn secondary">Cancel</button>
+            <button class="hide-modal-btn btn danger">Delete</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Danger Modal</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <button class="btn system" data-modal="target:info-modal-id">Open Modal</button>
+
+        <div id="info-modal-id" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            <div class="h-[80vh]"></div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione
+            dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe
+            maiores nobis iste quasi alias!
+            </div>
+
+            <div class="modal-footer">
+            <button class="hide-modal-btn btn system">Ok</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Info Modal</h2>
+    </div>
+    </div>
+</div>
+</div>

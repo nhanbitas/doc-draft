@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Badge
+description: This is a Badge Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge green">Online</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Text-only</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge green dotted">Online</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Dotted</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge green"><i class="far fa-server-05 h-4 w-4"></i>Online</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">With icon</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Kinds -->
+<div data-heading="Kinds">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Kinds</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge gray"><i class="far fa-x-circle h-4 w-4"></i>Expired</span>
+        <span class="badge gray"><i class="far fa-package-x h-4 w-4"></i>Canceled</span>
+        <span class="badge gray"><i class="far fa-bell-off-03 h-4 w-4"></i>Off</span>
+        <span class="badge gray"><i class="far fa-lock-01 h-4 w-4"></i>Locked</span>
+        <span class="badge gray"><i class="far fa-eye-off h-4 w-4"></i>Hidden</span>
+        <span class="badge gray"><i class="far fa-package-x h-4 w-4"></i>Out-of-stock</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Inactivated</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge orange"><i class="far fa-zap-fast h-4 w-4"></i>Priority</span>
+        <span class="badge orange"><i class="far fa-fire-02 h-4 w-4"></i>Hot</span>
+        <span class="badge orange"><i class="far fa-trophy-01 h-4 w-4"></i>Top</span>
+        <span class="badge orange"><i class="far fa-hearts h-4 w-4"></i>Popular</span>
+        <span class="badge orange"><i class="far fa-target-05 h-4 w-4"></i>Important</span>
+        <span class="badge orange"><i class="far fa-gift-01 h-4 w-4"></i>Gift</span>
+        <span class="badge orange"><i class="far fa-sale-03 h-4 w-4"></i>Sale</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Featured</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge sky"><i class="far fa-stars-02 h-4 w-4"></i>New</span>
+        <span class="badge sky"><i class="far fa-lightbulb-04 h-4 w-4"></i>Idea</span>
+        <span class="badge sky"><i class="far fa-thumbs-up h-4 w-4"></i>Recommendation</span>
+        <span class="badge sky"><i class="far fa-download-cloud-01 h-4 w-4"></i>Update</span>
+        <span class="badge sky"><i class="far fa-cube-outline h-4 w-4"></i>Beta</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Novel</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge violet"><i class="far fa-tool-02 h-4 w-4"></i>Maintenance</span>
+        <span class="badge violet"><i class="far fa-clock-snooze h-4 w-4"></i>Sleep</span>
+        <span class="badge violet"><i class="far fa-hourglass-03 h-4 w-4"></i>Waiting</span>
+        <span class="badge violet"><i class="far fa-pause-circle h-4 w-4"></i>Paused</span>
+        <span class="badge violet"><i class="far fa-loading-01 h-4 w-4"></i>Coming soon</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Temporary</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge green"><i class="far fa-check-circle h-4 w-4"></i>Success</span>
+        <span class="badge green"><i class="far fa-server-05 h-4 w-4"></i>Online</span>
+        <span class="badge green"><i class="far fa-package-check h-4 w-4"></i>Delivered</span>
+        <span class="badge green"><i class="far fa-clipboard-check h-4 w-4"></i>Approved</span>
+        <span class="badge green"><i class="far fa-trend-up-01 h-4 w-4"></i>Increase</span>
+        <span class="badge green"><i class="far fa-shield-tick h-4 w-4"></i>Protected</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Positive</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge red"><i class="far fa-slash-circle-01 h-4 w-4"></i>Failure</span>
+        <span class="badge red"><i class="far fa-cloud-off h-4 w-4"></i>Disconnected</span>
+        <span class="badge red"><i class="far fa-clipboard-x h-4 w-4"></i>Rejected</span>
+        <span class="badge red"><i class="far fa-trend-down-01 h-4 w-4"></i>Decrease</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Negative</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge yellow"><i class="far fa-alert-triangle h-4 w-4"></i>Warning</span>
+        <span class="badge yellow"><i class="far fa-clock-stopwatch h-4 w-4"></i>Slow</span>
+        <span class="badge yellow"><i class="far fa-square h-4 w-4"></i>Stopped</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Attentive</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge blue"><i class="far fa-info-circle h-4 w-4"></i>Info</span>
+        <span class="badge blue"><i class="far fa-book-open-01 h-4 w-4"></i>Guide</span>
+        <span class="badge blue"><i class="far fa-book-apple h-4 w-4"></i>Knowledge</span>
+        <span class="badge blue"><i class="far fa-life-buoy-01 h-4 w-4"></i>Support</span>
+        <span class="badge blue"><i class="far fa-announcement-02 h-4 w-4"></i>Announcement</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Helpful</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Emphasis -->
+<div data-heading="Emphasis">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Emphasis</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge gray"><i class="far fa-x-circle h-4 w-4"></i>Expired</span>
+        <span class="badge orange"><i class="far fa-zap-fast h-4 w-4"></i>Priority</span>
+        <span class="badge sky"><i class="far fa-stars-02 h-4 w-4"></i>New</span>
+        <span class="badge violet"><i class="far fa-tool-02 h-4 w-4"></i>Maintenance</span>
+        <span class="badge green"><i class="far fa-check-circle h-4 w-4"></i>Success</span>
+        <span class="badge red"><i class="far fa-slash-circle-01 h-4 w-4"></i>Failure</span>
+        <span class="badge yellow"><i class="far fa-alert-triangle h-4 w-4"></i>Warning</span>
+        <span class="badge blue small"><i class="far fa-info-circle h-4 w-4"></i>Info</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Normal</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge gray strong"><i class="far fa-x-circle h-4 w-4"></i>Expired</span>
+        <span class="badge orange strong"><i class="far fa-zap-fast h-4 w-4"></i>Priority</span>
+        <span class="badge sky strong"><i class="far fa-stars-02 h-4 w-4"></i>New</span>
+        <span class="badge violet strong"><i class="far fa-tool-02 h-4 w-4"></i>Maintenance</span>
+        <span class="badge green strong"><i class="far fa-check-circle h-4 w-4"></i>Success</span>
+        <span class="badge red strong"><i class="far fa-slash-circle-01 h-4 w-4"></i>Failure</span>
+        <span class="badge yellow strong"><i class="far fa-alert-triangle h-4 w-4"></i>Warning</span>
+        <span class="badge blue strong"><i class="far fa-info-circle h-4 w-4"></i>Info</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Strong</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Sizes -->
+<div data-heading="Sizes">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Sizes</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge sky small">New</span>
+        <span class="badge sky small dotted">New</span>
+        <span class="badge sky small"><i class="far fa-stars-02 h-4 w-4"></i>New</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Small</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <span class="badge sky">New</span>
+        <span class="badge sky dotted">New</span>
+        <span class="badge sky"><i class="far fa-stars-02 h-4 w-4"></i>New</span>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Medium</h2>
+    </div>
+    </div>
+</div>
+</div>

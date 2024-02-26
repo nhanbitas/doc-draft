@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Accordion
+description: This is a Accordion Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion="single-active" class="accordion">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Single-active</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion class="accordion">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Multi-active</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Kinds -->
+<div data-heading="Kinds">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Kinds</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion="single-active" class="accordion">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Contained</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion="single-active" class="accordion flush">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Flush</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Nesting -->
+<div data-heading="Nesting">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Nesting</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion class="accordion">
+        <div class="accordion-item active">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+
+            <!-- Nested -->
+            <div data-accordion class="accordion">
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 1.1</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 1.2</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 1.3</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <!-- Nested -->
+            </div>
+        </div>
+        <div class="accordion-item active">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+
+            <!-- Nested -->
+            <div data-accordion class="accordion">
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 2.1</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 2.2</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-right">
+                    <span class="accordion-item-btn-text">Section 2.3</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <!-- Nested -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Nested</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion class="accordion flush">
+        <div class="accordion-item active">
+            <button type="button" class="accordion-item-btn icon-left">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            <!-- Nested -->
+            <div data-accordion class="accordion flush">
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 1.1</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 1.2</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 1.3</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <!-- Nested -->
+            </div>
+        </div>
+        <div class="accordion-item active">
+            <button type="button" class="accordion-item-btn icon-left">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            <!-- Nested -->
+            <div data-accordion class="accordion flush">
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 2.1</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 2.2</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+
+                <div class="accordion-item">
+                <button type="button" class="accordion-item-btn icon-left">
+                    <span class="accordion-item-btn-text">Section 2.3</span>
+                </button>
+                <div class="accordion-item-content hidden">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <!-- Nested -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Nested flush</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Alignment -->
+<div data-heading="Alignment">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Alignment</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion="single-active" class="accordion">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-right">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Icon right</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div data-accordion="single-active" class="accordion">
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-left">
+            <span class="accordion-item-btn-text">Chapter 1</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-left">
+            <span class="accordion-item-btn-text">Chapter 2</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button type="button" class="accordion-item-btn icon-left">
+            <span class="accordion-item-btn-text">Chapter 3</span>
+            </button>
+            <div class="accordion-item-content hidden">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Icon left</h2>
+    </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Overflow Menu
+description: This is a Overflow Menu Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-dots-vertical"></i>
+        <ul class="overflow-menu-body">
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+        </ul>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Toggle (Default)</h2>
+    </div>
+    </div>
+</div>
+
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu" data-overflow-menu="type:hover">
+        <i class="far fa-dots-vertical"></i>
+        <ul class="overflow-menu-body">
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+            <li class="overflow-menu-item">Option</li>
+        </ul>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Hover</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Position -->
+<div data-heading="Positions">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Positions</h2>
+</div>
+<!-- Bottom -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-between gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body bottom-right">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body bottom-left">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Bottom (Center is default)</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Top -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-between gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body top-right">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body top">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body top-left">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Top</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Left and Right -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-between gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body right">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+
+        <div class="overflow-menu">
+        <i class="far fa-dots-horizontal"></i>
+        <div class="overflow-menu-body left">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Other</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Grouping -->
+<div data-heading="Grouping">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Group</h2>
+</div>
+
+<!-- Group -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-settings-04"></i>
+        <div class="overflow-menu-body">
+            <div class="overflow-menu-group" data-label="Group 1">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            </div>
+            <div class="overflow-menu-group" data-label="Group 2">
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Setting</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-log-in-01"></i>Exit</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Group</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Group selected -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-settings-04"></i>
+        <div class="overflow-menu-body">
+            <div class="overflow-menu-group group-selection" data-label="Group 1">
+            <button class="overflow-menu-item">
+                <i class="far fa-home-02"></i>
+                <span>Home</span>
+            </button>
+            <button class="overflow-menu-item">
+                <i class="far fa-google-chrome"></i>
+                <span>Setting</span>
+            </button>
+            </div>
+            <div class="overflow-menu-group group-selection" data-label="Group 2">
+            <button class="overflow-menu-item">
+                <i class="far fa-grid-01"></i>
+                <span>Products</span>
+            </button>
+            <button class="overflow-menu-item">
+                <i class="far fa-archive"></i>
+                <span>Sneakers</span>
+            </button>
+            </div>
+            <a href="#" class="overflow-menu-item text-red"
+            ><i class="far fa-log-in-01"></i><span>Exit</span></a
+            >
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Group selection</h2>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- other use case -->
+<div data-heading="Others">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Other use cases</h2>
+</div>
+<!-- Other containers -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu rounded-none">
+        <i class="far fa-dots-vertical"></i>
+        <div class="overflow-menu-body">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+        <div class="overflow-menu rounded-full">
+        <i class="far fa-dots-vertical"></i>
+        <div class="overflow-menu-body">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+        <div class="overflow-menu bg-transparent">
+        <i class="far fa-dots-vertical"></i>
+        <div class="overflow-menu-body">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-heart-hexagon"></i>Decor</a>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Other containers</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Small text -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-pencil-line"></i>
+        <div class="overflow-menu-body text-small top">
+            <a class="overflow-menu-item" href="#"><i class="far fa-grid-01"></i>Products</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-archive"></i>Sneakers</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-google-chrome"></i>Spring 2023</a>
+            <a class="overflow-menu-item" href="#"><i class="far fa-log-in-01"></i>Exit</a>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Small text</h2>
+    </div>
+    </div>
+</div>
+
+<!-- Disable -->
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div
+        data-demo-pane="auto"
+        class="flex w-3/5 flex-wrap justify-center gap-2 rounded-tl-2xl bg-gray-50 p-4"
+    >
+        <div class="overflow-menu">
+        <i class="far fa-settings-04"></i>
+        <div class="overflow-menu-body top">
+            <div class="overflow-menu-group group-selection" data-label="Group 1">
+            <button class="overflow-menu-item">
+                <i class="far fa-home-02"></i>
+                <span>Home</span>
+            </button>
+            <button class="overflow-menu-item">
+                <i class="far fa-google-chrome"></i>
+                <span>Setting</span>
+            </button>
+            </div>
+            <div class="overflow-menu-group group-selection" data-label="Group 2">
+            <button class="overflow-menu-item" disabled>
+                <i class="far fa-grid-01"></i>
+                <span>Products</span>
+            </button>
+            <button class="overflow-menu-item">
+                <i class="far fa-archive"></i>
+                <span>Sneakers</span>
+            </button>
+            </div>
+            <a href="#" class="overflow-menu-item text-red"
+            ><i class="far fa-log-in-01"></i><span>Exit</span></a
+            >
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Disable</h2>
+    </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<script src="./_assets/demoScripts.js"></script>
+<script src="../../../scripts/demo/generateHtml.js"></script>
+<noscript>
+---
+component: Dropdown
+description: This is a Dropdown Page
+tabs: ['Variants', 'Usage', 'Dev']
+currentTab: Variants
+---
+
+<!-- Types -->
+<div data-heading="Types">
+<div class="px-6 py-3">
+    <h2 class="text-heading-03 text-gray-900">Types</h2>
+</div>
+<div class="mb-6 flex flex-col gap-4 px-6">
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div class="flex w-full flex-col gap-2">
+        <legend class="text-label-02 text-gray-700">Label</legend>
+        <div data-dropdown class="relative">
+            <button type="button" class="dropdown-btn">
+            <span class="dropdown-btn-text">Options</span>
+            <span class="dropdown-btn-icon"><i class="far fa-chevron-down"></i></span>
+            </button>
+            <div hidden class="dropdown-menu" role="menu" tabindex="-1">
+            <button type="button" class="menu-item" role="menuitem">
+                <span class="menu-item-text">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor
+                incididunt</span
+                >
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <span class="menu-item-text">Sed sagittis justo a pharetra commodo</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <span class="menu-item-text">Duis eleifend euismod faucibus</span>
+            </button>
+            </div>
+        </div>
+        <div class="flex items-start gap-1">
+            <p class="text-helper-01 text-gray-500">Helper text.</p>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Single-select dropdown</h2>
+    </div>
+    </div>
+
+    <div class="flex min-h-[3.625rem] flex-wrap rounded-2xl border border-gray-200">
+    <div data-demo-pane="auto" class="flex w-3/5 flex-wrap gap-2 rounded-tl-2xl bg-gray-50 p-4">
+        <div class="flex w-full flex-col gap-2">
+        <legend class="text-label-02 text-gray-700">Label</legend>
+        <div data-dropdown="multi-select" class="relative">
+            <button type="button" class="dropdown-btn">
+            <span class="dropdown-btn-text">Options</span>
+            <span class="dropdown-btn-icon"><i class="far fa-chevron-down"></i></span>
+            </button>
+            <div hidden class="dropdown-menu" role="menu" tabindex="-1">
+            <button type="button" class="menu-item" role="menuitem">
+                <img src="https://flagsapi.com/VN/flat/64.png" />
+                <span class="menu-item-text">Vietnam</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <img src="https://flagsapi.com/US/flat/64.png" />
+                <span class="menu-item-text">United States of America</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <img src="https://flagsapi.com/CA/flat/64.png" />
+                <span class="menu-item-text">Canada</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <img src="https://flagsapi.com/AU/flat/64.png" />
+                <span class="menu-item-text">Australia</span>
+            </button>
+            <button type="button" class="menu-item" role="menuitem">
+                <img src="https://flagsapi.com/GB/flat/64.png" />
+                <span class="menu-item-text">Great Britain</span>
+            </button>
+            </div>
+        </div>
+        <div class="flex items-start gap-1">
+            <p class="text-helper-01 text-gray-500">Helper text.</p>
+        </div>
+        </div>
+    </div>
+    <div data-info-pane>
+        <h2 class="text-heading-01">Multi-select dropdown</h2>
+    </div>
+    </div>
+</div>
+</div>
