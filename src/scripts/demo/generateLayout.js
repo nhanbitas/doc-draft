@@ -60,7 +60,7 @@ const createTabList = (dataObject) => {
     ${dataObject.tabs
       .map((tab) => {
         const href = tab.toLowerCase();
-        return `<a href="${href}.html" class="btn large tab-button tab-link ${
+        return `<a href="doc-draft/${href}.html" class="btn large tab-button tab-link ${
           tab === dataObject.currentTab ? "active" : ""
         }">${tab}</a>`;
       })
