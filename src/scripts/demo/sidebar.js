@@ -25,11 +25,11 @@ sidebarItems.forEach((element) => {
     .map((item) => {
       let href = "";
       if (element.category === "Components") {
-        href = `doc-draft/src/docs/components/${item.link}/variants.html`;
+        href = `/doc-draft/src/docs/components/${item.link}/variants.html`;
       } else if (element.category === "Foundations") {
-        href = `doc-draft/src/docs/foundations/${item.link}/variants.html`;
+        href = `/doc-draft/src/docs/foundations/${item.link}/variants.html`;
       } else {
-        href = `doc-draft/src/docs/introduction/${item.link}`;
+        href = `/doc-draft/src/docs/introduction/${item.link}/`;
       }
       return `
     <li class="inline-flex flex-wrap gap-x-2 gap-y-1 border-l-2 border-transparent py-1 pl-[0.875rem] pr-4">

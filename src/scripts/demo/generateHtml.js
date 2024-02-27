@@ -1,10 +1,13 @@
 // If not in Iframe redirect to docs with URLSearchParams
 // In the docs, check the URLSearchParams and add to the Iframe
 if (window.self == window.top) {
-  const url = window.location.pathname;
-  const encodedUrl = encodeURIComponent(url).replace(/\//g, "%2F");
-  const homePageHref = window.location.origin + `/src/docs/?path=${encodedUrl}`;
-  window.location.href = homePageHref;
+  const redirect = () => {
+    const url = window.location.pathname;
+    const homePageHref = `${window.location.origin}/doc-draft/src/docs/?path=${encodeURIComponent(url).replace(/\//g, "%2F")}`;
+    window.location.href = homePageHref;
+  };
+  
+  redirect();
 } else {
   const addMeta = (name, content) => {
     const meta = document.createElement("meta");

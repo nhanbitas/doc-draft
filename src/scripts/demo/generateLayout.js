@@ -32,7 +32,6 @@ const validate = (dataObject) => {
   }
 };
 
-
 const createTitle = (dataObject) => {
   const title = document.createElement("div");
   title.setAttribute("data-page-title", "");
@@ -40,14 +39,6 @@ const createTitle = (dataObject) => {
   title.innerHTML = `
     <h1 class="text-heading-06 text-gray-900">${dataObject.component}</h1>
     <div class="flex flex-wrap gap-x-3 gap-y-2">
-      <span class="text-label-02 flex items-center gap-1"
-        >Development:
-          <span class="badge green small">Release</span>
-      </span>
-      <span class="text-label-02 flex items-center gap-1"
-        >Documentation:
-          <span class="badge blue small">3/5</span>
-        </span>
     </div>
   `;
   return title;
@@ -60,7 +51,7 @@ const createTabList = (dataObject) => {
     ${dataObject.tabs
       .map((tab) => {
         const href = tab.toLowerCase();
-        return `<a href="doc-draft/${href}.html" class="btn large tab-button tab-link ${
+        return `<a href="${href}.html" class="btn large tab-button tab-link ${
           tab === dataObject.currentTab ? "active" : ""
         }">${tab}</a>`;
       })
@@ -71,7 +62,7 @@ const createTabList = (dataObject) => {
   tabLinks.forEach((link) => {
     link.addEventListener("click", function (event) {
       const href = this.getAttribute("href");
-      window.parent.history.pushState(null, null, href)
+      window.parent.history.pushState(null, null, href);
     });
   });
   return tabs;
