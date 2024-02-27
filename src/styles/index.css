@@ -39,15 +39,39 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 }
 
-  body.markdown-body {
-    position: relative;
-    height: auto;
-    width: auto;
-  }
-  
- .shared-layout {
-  position: sticky;
-  top: -95px;
-  background-color: white;
-  z-index: 10;
- }
+/* for mark-down css */
+body.markdown-body {
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  width: auto;
+}
+
+.shadow-nav-b-full {
+  overflow-x: visible;
+
+}
+
+.shadow-nav-b-full::before {
+  content: '';
+  width: calc(100% + 3rem);
+  height: 0px;
+  transform: translateX(-1.5rem);
+  position: absolute;
+  bottom: 0;
+  border-bottom: 2px solid rgba(224, 224, 224, 0.5);
+  z-index: -1;
+}
+
+.github-edit-link {
+  position: absolute;
+  padding: 1em;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: underline;
+  text-decoration-color: rgb(180, 180, 180);
+  color: rgba(180, 180, 180);
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}

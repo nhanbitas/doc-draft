@@ -4023,7 +4023,7 @@ if (!String.prototype.includes) {
 document.addEventListener("DOMContentLoaded", function () {
   var sheet = document.createElement("style");
   var styles =
-    'body { padding: 20px; font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;} ';
+    'body { padding: 1.5em; font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;} ';
   styles +=
     "blockquote { padding: 0 1em; color: #6a737d; border-left: 0.25em solid #dfe2e5;} ";
   styles += "pre > code { background: none } ";
